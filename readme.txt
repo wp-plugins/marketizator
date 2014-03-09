@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin helps you configure your WordPress website to use Marketizator. Marketizator is the simplest way to convert your visitors into prospective customers or buyers. It helps increase your conversion or subscription rate wihout IT knowledge.
+3 in 1 conversion suite (A/B testing, Interactions & Surveys)
 
 == Description ==
 
