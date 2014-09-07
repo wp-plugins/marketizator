@@ -56,7 +56,7 @@ function mktz_conf() {
       <h3>Register now</h3>
       <p>Create an account at <a href="http://www.marketizator.com" target="_blank">marketizator.com</a> and start have fun (and more money) with your website today! After creating an account you can come back to this configuration page and set up your WordPress website to use Marketizator.</p>
       <h3>The magical piece of code</h3>
-      <p>Go to <a href="http://www.marketizator.com/app/">marketizator.com/app</a>, make sure you've selected the right website (on the left) and click on &lt;Tracking code&gt;. You can then paste the code in the box below.</p>
+      <p>Go to <a href="http://web.marketizator.com">marketizator.com/app</a>, make sure you've selected the right website (on the left) and click on &lt;Tracking code&gt;. You can then paste the code in the box below.</p>
       <label for="tracking_code" style="font-weight:bold;">Paste your tracking code:</label>
 	  <textarea id="tracking_code" name="tracking_code" style="width:100%; height:80px;"><?php echo get_option('mktz_code'); ?></textarea>
       <?php mktz_nonce_field($mktz_nonce) ?>
