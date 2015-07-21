@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Marketizator
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: Marketizator
 Plugin URI: http://wordpress.org/extend/plugins/marketizator/
 Description: <a href="http://www.marketizator.com">Marketizator</a> is the simplest way to convert your visitors into prospective customers or buyers. It helps increase your conversion or subscription rate. To get started: 1) Click the "Activate" link to the left of this description, 2) Sign up for an <a href="http://www.marketizator.com">Marketizator account</a>, and 3) Go to the <a href="admin.php?page=marketizator-config">settings page</a>, and enter your tracking code.
 Author: Dragoi Ciprian
-Version: 1.0
+Version: 1.1
 Author URI: http://www.marketizator.com/
 License: GPL2
 */
