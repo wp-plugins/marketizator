@@ -36,7 +36,7 @@ function mktz_conf() {
 
   $messages = array(
     'new_code_empty' => 'Please enter a tracking code to activate Marketizator on this site.',
-    'new_code_saved' => 'Your tracking code has been saved. Go with Marketizator!',
+    'new_code_saved' => 'Your tracking code has been saved. You\'re ready to go!',
     'code_empty' => 'Please enter your tracking code.'
   );
 ?>
@@ -47,23 +47,77 @@ function mktz_conf() {
   </p>
 </div>
 <?php endif; ?>
-<div class="wrap">
-  <h2><?php _e('Marketizator Configuration'); ?></h2>
-  <div class="narrow">
-    <form action="" method="post" id="mktz-conf">
-      <h3>What is Marketizator</h3>
-      <p><a href="http://www.marketizator.com" target="_blank">Marketizator</a> is the simplest way to convert your visitors into prospective customers or buyers. It helps increase your conversion or subscription rate.</p>
-      <h3>Register now</h3>
-      <p>Create an account at <a href="http://www.marketizator.com" target="_blank">marketizator.com</a> and start have fun (and more money) with your website today! After creating an account you can come back to this configuration page and set up your WordPress website to use Marketizator.</p>
-      <h3>The magical piece of code</h3>
-      <p>Go to <a href="http://web.marketizator.com">web.marketizator.com</a>, make sure you've selected the right website (on the left) and click on &lt;Tracking code&gt;. You can then paste the code in the box below.</p>
-      <label for="tracking_code" style="font-weight:bold;">Paste your tracking code:</label>
-	  <textarea id="tracking_code" name="tracking_code" style="width:100%; height:80px;"><?php echo get_option('mktz_code'); ?></textarea>
-      <?php mktz_nonce_field($mktz_nonce) ?>
-      <p class="submit"><input type="submit" name="submit" value="<?php _e('Save configuration &raquo;'); ?>" /></p>
-    </form>
-  </div>
+
+<div class="wrap" id="sm_div">
+		
+	<a href="http://www.marketizator.com" target="_blank"><img src="<?php echo plugins_url('logo.png', __FILE__) ?>"/></a>
+				
+	<div id="poststuff" class="metabox-holder has-right-sidebar">
+		<div class="inner-sidebar">
+			<div id="side-sortables" class="meta-box-sortabless ui-sortable" style="position:relative;">
+            
+                <a href="http://web.marketizator.com/experiments/new" style="display:block; background:#13AB84; color:white; padding:10px 10px; border-radius:5px; font-size:18px; text-decoration:none;">New experiment</a>
+                
+                <a href="http://web.marketizator.com" style="margin-top:8px; color:#2084B4; display:block;"><b>View experiments</b></a>
+                <br />
+				<div class="postbox">
+					<h3 class="hndle"><span>Ran out of testing ideas?</span></h3>
+					<div class="inside">
+						<iframe width="260" height="140" src="https://www.youtube.com/embed/9evyF_IiJ_A?rel=0&amp;showinfo=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+					   
+                        <iframe width="260" height="140" src="https://www.youtube.com/embed/fD6fzQpC0ZE?rel=0&amp;showinfo=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+				</div>
+                
+                <div class="postbox">
+					<h3 class="hndle"><span>Are you stuck?</span></h3>
+					<div class="inside">
+                        <a href="http://help.marketizator.com">Knowledge base</a>
+					</div>
+				</div>
+			</div>
+		</div>
+					
+		<div class="has-sidebar sm-padded">
+			<div id="post-body-content" class="has-sidebar-content">
+				<div class="meta-box-sortabless">
+
+                    <div class="postbox">
+						<h3 class="hndle"><span>1. Get started</span></h3>
+						<div class="inside" style="font-size: 14px;">
+							<a href="https://www.marketizator.com" target="_blank">Create an account</a> and start converting more of your traffic today.
+						</div>
+					</div>
+                    
+                     <div class="postbox">
+						<h3 class="hndle"><span>2. Install the magical piece of code</span></h3>
+						<div class="inside" style="font-size: 14px;">
+                        <form action="" method="post" id="mktz-conf">
+							<p>Go to <a href="http://web.marketizator.com/website/code">web.marketizator.com</a>, make sure you've selected the right website (on the left) and click on &lt;Tracking code&gt;. You can then paste the code in the box below.</p>
+                              <label for="tracking_code" style="font-weight:bold;">Paste your tracking code:</label>
+                        	  <textarea id="tracking_code" name="tracking_code" style="margin-top:5px; width:100%; height:80px;"><?php echo get_option('mktz_code'); ?></textarea>
+                              <?php mktz_nonce_field($mktz_nonce) ?>
+                              <p class="submit" style="margin: 5px 0px; padding:0px;"><input type="submit" name="submit" value="<?php _e('Save configuration &raquo;'); ?>" /></p>
+						 </form>
+                        </div>
+					</div>
+                    
+                    <div class="postbox">
+						<h3 class="hndle"><span>3. Run your first experiment</span></h3>
+						<div class="inside" style="font-size: 14px;">
+							<a href="http://web.marketizator.com" target="_blank">Use the dashboard</a> and create your first experiment.
+						</div>
+					</div>
+
+				</div>
+					
+
+			</div>
+		</div>
+	</div>
+			
 </div>
+
 <?php
 }
 
