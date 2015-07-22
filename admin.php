@@ -56,7 +56,7 @@ function mktz_conf() {
 		<div class="inner-sidebar">
 			<div id="side-sortables" class="meta-box-sortabless ui-sortable" style="position:relative;">
             
-                <a href="http://web.marketizator.com/experiments/new" style="display:block; background:#13AB84; color:white; padding:10px 10px; border-radius:5px; font-size:18px; text-decoration:none;">New experiment</a>
+                <a href="http://web.marketizator.com/experiments/new" style="display:block; background:#13AB84; color:white; padding:10px 10px; border-radius:5px; font-size:18px; text-decoration:none;" target="_blank">New experiment</a>
                 
                 <a href="http://web.marketizator.com" style="margin-top:8px; color:#2084B4; display:block;"><b>View experiments</b></a>
                 <br />
