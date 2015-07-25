@@ -84,6 +84,8 @@ Get in touch with us at support at marketizator dot com
 == Screenshots ==
 
 1. Plugin configuration page
+2. Create new experiment
+3. Creatives type
 
 == Changelog ==
 
