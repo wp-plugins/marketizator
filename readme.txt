@@ -20,6 +20,7 @@ Marketizator is the simplest way to convert your visitors into prospective custo
 Main Features:
 
 **[A/B Testing](https://www.marketizator.com/ab-testing-features)**
+
 *   WYSIWYG Editor
 *   MVT testing
 *   Multiple pages/test
@@ -28,6 +29,7 @@ Main Features:
 *   Custom goals
 
 **[Online Surveys](https://www.marketizator.com/surveys-features)**
+
 *   Branching logic
 *   Lead collection
 *   3 triggering options
@@ -36,6 +38,7 @@ Main Features:
 *   8 types of questions
 
 **[Popup Banners](https://www.marketizator.com/features-personalization)**
+
 *   On-Exit, On-Load & On-Scroll triggering
 *   Customizable designs
 *   5 different banner positions
@@ -43,6 +46,7 @@ Main Features:
 *   Split test between different designs
 
 **[Advanced Segmentation](https://www.marketizator.com/segmentation)**
+
 *   Geolocation
 *   Weather condition
 *   Visitors behavior
