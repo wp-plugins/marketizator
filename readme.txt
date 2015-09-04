@@ -20,35 +20,35 @@ Marketizator is the simplest way to convert your visitors into prospective custo
 Main Features:
 
 **[A/B Testing](https://www.marketizator.com/ab-testing-features)**
-* WYSIWYG Editor
-* MVT testing
-* Multiple pages/test
-* Statistical relevance calculator
-* Advanced reporting
-* Custom goals
+*WYSIWYG Editor
+*MVT testing
+*Multiple pages/test
+*Statistical relevance calculator
+*Advanced reporting
+*Custom goals
 
 **[Online Surveys](https://www.marketizator.com/surveys-features)**
-* Branching logic
-* Lead collection
-* 3 triggering options
-* Editable design
-* Frequency capping
-* 8 types of questions
+*Branching logic
+*Lead collection
+*3 triggering options
+*Editable design
+*Frequency capping
+*8 types of questions
 
 **[Popup Banners](https://www.marketizator.com/features-personalization)**
-* On-Exit, On-Load & On-Scroll triggering
-* Customizable designs
-* 5 different banner positions
-* Frequency capping
-* Split test between different designs
+*On-Exit, On-Load & On-Scroll triggering
+*Customizable designs
+*5 different banner positions
+*Frequency capping
+*Split test between different designs
 
 **[Advanced Segmentation](https://www.marketizator.com/segmentation)**
-* Geolocation
-* Weather condition
-* Visitors behavior
-* Referring URLs
-* Cookies 
-* +30 more
+*Geolocation
+*Weather condition
+*Visitors behavior
+*Referring URLs
+*Cookies 
+*+30 more
 
 Marketizator is 100% free to use for up to 10.000 visitors/month. For higher traffic ammounts your can check out our [pricing page](https://www.marketizator.com/pricing). If you also want to know how we compare with other similar solutions, you can do so [here](https://www.marketizator.com/compare).
 
