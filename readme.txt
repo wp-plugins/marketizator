@@ -18,7 +18,7 @@ You don't need any technical knowledge in order to use Marketizator. Just signup
 
 Marketizator is the simplest way to convert your visitors into prospective customers or buyers. It helps increase your conversion or subscription rate.
 
-# Main Features
+**Main Features**
 
 **[A/B Testing](https://www.marketizator.com/ab-testing-features)**
 * WYSIWYG Editor
