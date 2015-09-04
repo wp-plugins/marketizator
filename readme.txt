@@ -15,10 +15,9 @@ Use Marketizator to improve the performance of your website by ceating A/B testi
 
 You don't need any technical knowledge in order to use Marketizator. Just signup for an account [here](https://www.marketizator.com), install the wordpress plugin, copy-paste your tracking code into the plugin and you're good to go!
 
-
 Marketizator is the simplest way to convert your visitors into prospective customers or buyers. It helps increase your conversion or subscription rate.
 
-**Main Features**
+Main Features:
 
 **[A/B Testing](https://www.marketizator.com/ab-testing-features)**
 * WYSIWYG Editor
